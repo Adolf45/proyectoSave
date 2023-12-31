@@ -1,0 +1,14 @@
+#testimonies{
+    text-align: center;
+    margin: 120px auto;
+    max-width: 50%;
+}
+h2{
+    font-weight: bold;
+}
+
+@media (max-width: 435px) {
+    #testimonies{
+        margin-top: 12px;
+      }
+  }

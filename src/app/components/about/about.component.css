@@ -1,0 +1,48 @@
+.perfil-section {
+    text-align: center;
+    padding: 25px;
+    max-width: 800px;
+    margin: 20px auto;
+    height: auto;
+  }
+  
+  .perfil-imagen {
+    width: 200px;
+    height: 210px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: block;
+  }
+  
+  .perfil-titulo {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .perfil-descripcion {
+    font-size: 1em;
+    color: #555;
+    margin: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .perfil-imagen {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .perfil-titulo {
+      font-size: 2em;
+    }
+  
+    .perfil-descripcion {
+      font-size: 1.2em;
+    }
+  }
+
+  @media (max-width: 435px) {
+    .perfil-section {
+        margin-top: -80px;
+      }
+  }
